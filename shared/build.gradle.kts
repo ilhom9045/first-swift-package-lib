@@ -3,11 +3,11 @@ import org.jetbrains.kotlin.gradle.plugin.mpp.apple.XCFramework
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.androidLibrary)
-    id("com.chromaticnoise.multiplatform-swiftpackage") version "2.0.3"
+    id("io.github.luca992.multiplatform-swiftpackage") version "2.0.5-arm64"
 }
 
 
-version = "1.0.0"
+version = "1.0.1"
 
 kotlin {
     androidTarget {

@@ -3,6 +3,4 @@ framework module shared {
 
     export *
     module * { export * }
-
-    use Foundation
 }
