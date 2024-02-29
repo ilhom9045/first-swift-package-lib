@@ -6,6 +6,9 @@ plugins {
     id("com.chromaticnoise.multiplatform-swiftpackage") version "2.0.3"
 }
 
+
+version = "0.0.0.1"
+
 kotlin {
     androidTarget {
         compilations.all {
